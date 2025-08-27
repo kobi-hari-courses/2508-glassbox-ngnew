@@ -1,0 +1,3 @@
+@for(option of options(); track option) {
+<div (click)="userChanges(option)" [class.selected]="option === selectedOption()">{{ option }}</div>
+}

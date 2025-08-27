@@ -1,1 +1,18 @@
-<p>page-a works!</p>
+<app-selector [options]="colors()" 
+    [(selectedOption)]="selectedColor"
+    />
+
+<h1 [style.color]="selectedColor()">Selected = {{selectedColor()}}</h1>
+
+
+<h1>
+    <button (click)="incFirst()">+</button>
+    First: {{firstNumber()}}
+</h1>
+<h1>Second: {{secondNumber()}}</h1>
+
+<h2>The sum is {{sum()}}</h2>
+
+
+
+<button (click)="reset()">Reset</button>
