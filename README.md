@@ -14,7 +14,7 @@ have a chat :-)
 |   |    |  
 |-------------- | -------------- 
 | Our Projects    | [here](./projects)     |
-| Our Presentation    | [here](./presentation/Ng%20New.pdf)     |
+| Our Presentation    | [here](./presentation/ng-new.pdf)     |
 
 ## The `inject` function
 * How to Inject using the function
